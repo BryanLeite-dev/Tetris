@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">;
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel='stylesheet'>
+        <link rel= "stylesheet" type = "text/css" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="grid">
+            <canvas id="painel" class="painel-jogo"></canvas>
+            <div class="right-column">
+                <div>
+                    <h1>TETRIS</h1>
+                    <p>Pontuação: <span id="pontos">0</span></p>
+                    <p>Linhas: <span id="linhas">0</span></p>
+                    <p>Nível: <span id="nivel">0</span></p>
+                    <canvas id="proximo" class="proximo"></canvas>
+                </div>
+                <button onclick="jogar()" class="jogar-btn">Jogar</button>
+            </div>
+        </div>
+        <script type ="text/javascript" scr="js/constantes.js"></script>
+        <script type ="text/javascript" scr="js/menu.js"></script>
+        <script type ="text/javascript" scr="js/painel.js"></script>
+        <script type ="text/javascript" scr="js/pecas.js"></script>
+    </body>
+</html>
