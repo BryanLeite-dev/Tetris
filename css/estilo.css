@@ -7,7 +7,7 @@
     grid-template-columns: 320px 200px;
 }
 
-.coluna-direita{
+.right-column{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
